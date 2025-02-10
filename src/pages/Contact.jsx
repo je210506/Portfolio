@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <form>
+    <form className="formSub">
       <div class="mb-3">
         <label class="form-label">Name</label>
         <input class="form-control" id="inputName"></input>

@@ -42,14 +42,22 @@
 }
 
 .NavDiv {
-  display: flex;                  /* Use flexbox for alignment */
-  justify-content: space-between;  /* Space out content horizontally */
-  align-items: center;            /* Center items vertically */
-  height: 20px auto;
-  width: 100%;              /* Add padding for spacing around the nav */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust as needed */
+  width: 100%;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
   z-index: 1000;
-  background-color: aqua;
+  background-color: #abc7f5; /* Professional blue shade */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }  
+#title {
+  color: #f59403;
+}
 
 .navLink {
   list-style-type: none;
@@ -57,6 +65,8 @@
   display: inline;
   font-weight: bold;
   padding: 0px 10px;
+  justify-content: space-evenly;
+  color: #f59403;
 }
 
 .portFlexContainer{
@@ -65,8 +75,9 @@
   flex-direction: row; /* Stack items vertically */
   align-items: center; /* Center horizontally */
   justify-content: center; /* Center vertically */
-  height: 50vh; /* Full screen height */
-  gap: 40px;
+  min-height: 100vh; /* Full screen height */
+  gap: 80px;
+  padding:100px 50px;
 }
 .portFlexContainer img {
   width: 400px; /* Adjust width */
@@ -75,24 +86,186 @@
   border-radius: 10px; /* Rounded edges */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
   flex: 1;
-  position: relative;
 }
 .portFlexContainer img:hover {
-  transform: scale(1.1); /* Slightly enlarge the image */
+  transform: scale(1.0); /* Slightly enlarge the image */
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add shadow effect */
   cursor: pointer;
 }
+
+/* Footer */
 .footer {
   width: 100%;
-  height: 40%;
-  text-align: center;
-  background-color: #000000;
-  padding: 10px 0;
-  margin-top: auto;
-  position: relative;
+  height: 80px; /* Adjust height as needed */
+  position: relative; /* Sticks the footer to the bottom */
   bottom: 0;
+  left: 0;
+  background-color: #abc7f5; /* Professional black background */
+  color: rgb(233, 149, 23);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
 }
 .footer a {
-  padding: 0px 20px;
-  margin-top: 50px;
+  color: #f59403; /* Gold/yellow for a nice contrast */
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px 15px; /* Adjusted spacing */
+  transition: color 0.3s ease-in-out;
+}
+.AboutMeDiv {
+  padding: 80px 20px
+}
+.AboutMeDiv h1 {
+  font-size: 32px;
+  color: #333; /* Dark gray for readability */
+  text-align: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.AboutMeDiv p {
+  font-size: 18px;
+  padding-top: 30px;
+  line-height: 1.6;
+  color: #444; /* Slightly lighter gray for softer look */
+  max-width: 500px;
+  text-align: justify; /* Smooth alignment */
+}
+.mejj {
+  width: 300px; /* Adjust size */
+  height: 300px; /* Keep it square */
+  object-fit: cover; /* Ensures no distortion */
+  border-radius: 50%; /* Makes it circular */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Soft shadow effect */
+  transition: transform 0.3s ease-in-out;
+}
+.formSub {
+  padding: 80px 20px;
+  max-width: 600px; /* Set a max width to avoid it being too wide */
+  margin: 80px auto; /* Centers the form and adds spacing from top */
+  padding: 40px; /* Padding inside the form */
+  background-color: #f6c478; /* Light background for contrast */
+  border-radius: 8px; /* Rounded corners for a soft feel */
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.input-group {
+  margin-bottom: 20px; /* Space between message input and the submit button */
+}
+.btn {
+  width: 100%; /* Full-width button */
+  padding: 12px; /* Padding for comfort */
+  background-color: #3100b6; /* Professional blue color */
+  color: white; /* White text for contrast */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  font-size: 18px;
+}
+.btn:hover {
+  background-color: #220860; /* Darker shade of blue on hover */
+  transform: scale(1.05); /* Slight zoom on hover for interactivity */
+}
+.resumeContainer {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;  /* Professional font */
+  background-color: #f4f4f9;  /* Soft background for contrast */
+  border-radius: 8px; /* Rounded corners for a smooth look */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+/* Title */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Section Headers (Professional Summary, Education, etc.) */
+h2 {
+  font-size: 28px;
+  color: #0077b6; /* A soft blue for professionalism */
+  margin-top: 30px;
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Sub-section headers (e.g., job titles, school names) */
+h3 {
+  font-size: 22px;
+  color: #333;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+/* Paragraphs for general text */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
+
+/* Lists with no bullet points */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 16px;
+  margin: 8px 0;
+  color: #555;
+  line-height: 1.5;
+}
+
+/* Links (e.g., LinkedIn) */
+a {
+  color: #0077b6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Emphasis for section titles */
+strong {
+  font-weight: bold;
+}
+
+/* Styling for each contact info (name, email, etc.) */
+.resumeContainer p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.resumeContainer p strong {
+  font-size: 18px;
+  color: #333;
+}
+
+.resumeContainer p a {
+  font-size: 18px;
+  color: #0077b6;
+  font-weight: normal;
+}
+
+.resumeContainer p a:hover {
+  text-decoration: underline;
+}
+
+/* Professional Summary Section Styling */
+.professional-summary {
+  margin-top: 20px;
+}
+
+/* Adding spacing between sections for readability */
+section {
+  margin-bottom: 30px;
 }

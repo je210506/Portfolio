@@ -9,7 +9,7 @@ export default function Footer() {
         <a href="https://github.com/je210506" target="_blank" rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faGithub} size="2x" className="icon" />
         </a>
-        <a href="www.linkedin.com/in/jenny-lalanne" target="_blank" rel="noopener noreferrer" >
+        <a href="https://www.linkedin.com/in/jenny-lalanne/" target="_blank" rel="noopener noreferrer" >
           <FontAwesomeIcon icon={faLinkedin} size="2x" className="icon" />
         </a>
         </div>

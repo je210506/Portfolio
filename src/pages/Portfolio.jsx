@@ -1,4 +1,9 @@
-import puppy from '../assets/puppy.png';
+import employeedata from '../assets/employeedata.png';
+import markdown from '../assets/markdown.png';
+import pinkcar from '../assets/pinkcar.png';
+import portpic from '../assets/portpic.png';
+import projects from '../assets/projects.png';
+import weather from '../assets/weather.png';
 
 export default function Portfolio() {
   return (
@@ -13,9 +18,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={markdown}
           rel="noopener noreferrer"
         />
+        <p>ReadMe Generator</p>
       </a>
 
       <a
@@ -26,9 +32,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={projects}
           rel="noopener noreferrer"
         />
+        <p>Project 1</p>
       </a>
       
       <a
@@ -39,9 +46,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={pinkcar}
           rel="noopener noreferrer"
         />
+        <p>Vehicle Generator</p>
       </a>
 
       <a
@@ -52,9 +60,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={employeedata}
           rel="noopener noreferrer"
         />
+        <p>Employee Tracking Database 1.0</p>
       </a>
       
       <a
@@ -65,9 +74,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={weather}
           rel="noopener noreferrer"
         />
+        <p>Open Weather Predictions</p>
       </a>
 
       <a
@@ -78,9 +88,10 @@ export default function Portfolio() {
         {" "}
         <img
           className="card"
-          src={puppy}
+          src={portpic}
           rel="noopener noreferrer"
         />
+        <p>Portfolio</p>
       </a>
     </section>
   );
