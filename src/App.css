@@ -157,14 +157,14 @@
 .btn {
   width: 100%; /* Full-width button */
   padding: 12px; /* Padding for comfort */
-  background-color: #3100b6; /* Professional blue color */
+  background-color: #5d29eb; /* Professional blue color */
   color: white; /* White text for contrast */
   border: none; /* Remove border */
   border-radius: 5px; /* Rounded corners */
   font-size: 18px;
 }
 .btn:hover {
-  background-color: #220860; /* Darker shade of blue on hover */
+  background-color: #5326bd; /* Darker shade of blue on hover */
   transform: scale(1.05); /* Slight zoom on hover for interactivity */
 }
 .resumeContainer {
