@@ -8,7 +8,7 @@ import weather from '../assets/weather.png';
 export default function Portfolio() {
   return (
     
-    <section class="portFlexContainer">
+    <section className="portFlexContainer">
 
       <a
         href="https://github.com/je210506/readme-generator.git"
