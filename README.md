@@ -94,6 +94,7 @@ To test the application's functionality:
 
 -  Test any interactive elements (e.g., hover effects on portfolio images).
 
-
 ## Questions 
 If there's any additional questions I can answer for you, you can reach out to me at https://github.com/je210506 or [lalanne1011@gmail.com](mailto:lalanne1011@gmail.com}).
+
+![alt text](pscreenshot.png)
