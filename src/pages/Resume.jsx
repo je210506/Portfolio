@@ -1,9 +1,9 @@
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/resume.pdf";
 
 export default function Resume() {
     return (
       <div className="resumeContainer">
-        <h1>Jenny's Resume</h1>
+        <h1>Jennys Resume</h1>
         <p className="download">
           Download my resume
           <a
