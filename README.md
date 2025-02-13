@@ -43,7 +43,7 @@ Your portfolio should now be running locally at ```http://localhost:3000```.
 
 
 ## Usage 
-Once the portfolio is deployed, you can interact with the different sections to explore the projects, experience, and information about me. Here's a breakdown of how to navigate through the portfolio:
+Once the portfolio is deployed, you can interact with the different sections to explore the projects, experience, and information about me. Here's a breakdown of how to navigate through the portfolio through this link https://jenla-portfolio.netlify.app/ :
 
 Navigation
 -  Home/About Me: The landing page that introduces who I am with a brief introduction.
