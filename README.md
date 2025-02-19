@@ -22,7 +22,7 @@ None.
 1. Clone the Repository:
 ```
 git clone <respository-SSH key>
-cd employee-tracker
+
 ```
 2. Navigate to the project directory:
 ```
