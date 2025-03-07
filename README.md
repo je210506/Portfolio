@@ -28,7 +28,7 @@ git clone <respository-SSH key>
 ```
 cd Portfolio
 ```
-3. Install the necessary ependencies:
+3. Install the necessary dependencies:
 ```
 npm install
 ```
